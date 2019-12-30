@@ -5,10 +5,6 @@ if [ "$EUID" -ne 0 ];then
   echo "Please run as root"
   exit
 fi
-if [ -z ${1+x} ]; then
-  echo "Please specify the device name."
-  exit
-fi
 
 #---------------------------------------------
 

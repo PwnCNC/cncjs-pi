@@ -7,12 +7,15 @@ Start from a fresh installation of Raspbian Lite; no desktop needed since you'll
 Log into the pi directly using an attached monitor/keyboard.
 
 download this repo:
-`curl https://github.com/PwnCNC/cncjs-pi/archive/master.zip -o cncjs-pi.zip`
+`curl -LJ https://github.com/PwnCNC/cncjs-pi/tarball/master -o cncjs-pi.tar.gz`
 
-unzip it:
-`unzip cncjs-pi.zip`
+Untar file:
+`tar xvf cncjs-pi.tar.gz`
 
-cd into directory
+Rename directory... this is where you'll need to run `ls` to see what the dir name is...
+in my case, it untarred as `PwnCNC-cncjs-pi-efa0692`, your directory may have a different trailing chars so rename it... `mv PwnCNC-cncjs-pi-efa0692 cncjs-pi`
+
+then cd into that directory
 `cd /home/pi/cncjs-pi`
 
 run installation script:
