@@ -19,5 +19,5 @@ then cd into that directory
 `cd /home/pi/cncjs-pi`
 
 run installation script:
-`sudo setup.sh`
+`sudo ./setup.sh`
 
